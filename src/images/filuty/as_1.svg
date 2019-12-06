@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="125px" height="91px" viewBox="0 0 125 91" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 14</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="73.540548%" y1="135.071989%" x2="34.9640489%" y2="-11.0687275%" id="linearGradient-1">
+            <stop stop-color="#ED88FF" offset="0%"></stop>
+            <stop stop-color="#2A74F2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="68.2663147%" y1="135.071989%" x2="38.3328368%" y2="-11.0687275%" id="linearGradient-2">
+            <stop stop-color="#ED88FF" offset="0%"></stop>
+            <stop stop-color="#2A74F2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="EN" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="h4_development" transform="translate(-753.000000, -421.000000)" stroke-width="9">
+            <g id="Group-14" transform="translate(815.822066, 467.022633) rotate(-27.000000) translate(-815.822066, -467.022633) translate(751.822066, 430.022633)">
+                <path d="M26.7065217,8.77200111 L0.293478261,35.674175 L26.7065217,8.77200111 Z M0.293478261,36.2720011 L26.7065217,63.174175 L0.293478261,36.2720011 Z" id="Combined-Shape" stroke="url(#linearGradient-1)"></path>
+                <path d="M101.293478,9.77200111 L127.706522,36.674175 L101.293478,9.77200111 Z M127.706522,37.2720011 L101.293478,64.174175 L127.706522,37.2720011 Z" id="Combined-Shape-Copy" stroke="url(#linearGradient-1)"></path>
+                <path d="M80.5269119,0.473088065 L48.5269119,73.5" id="Line-10" stroke="url(#linearGradient-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

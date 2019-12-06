@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="373px" height="194px" viewBox="0 0 373 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+    <title>img1_front2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-22.8674951%" x2="50%" y2="142.802297%" id="linearGradient-1">
+            <stop stop-color="#FC9CA3" offset="0%"></stop>
+            <stop stop-color="#FE77B0" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="297" cy="118" r="30"></circle>
+        <filter x="-61.7%" y="-65.0%" width="223.3%" height="223.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.992156863   0 0 0 0 0.51372549   0 0 0 0 0.674509804  0 0 0 0.655910326 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-4" cx="21.5" cy="21.5" r="21.5"></circle>
+        <filter x="-86.0%" y="-90.7%" width="272.1%" height="272.1%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.992156863   0 0 0 0 0.51372549   0 0 0 0 0.674509804  0 0 0 0.655910326 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="estibits_landing" transform="translate(-274.000000, -1117.000000)">
+            <g id="img1_front2" transform="translate(297.000000, 1142.000000)">
+                <g id="Group-21">
+                    <g id="Oval-Copy-32">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    </g>
+                    <polygon id="Triangle-Copy-6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(296.500000, 118.500000) scale(1, -1) translate(-296.500000, -118.500000) " points="296.5 111 304 126 289 126"></polygon>
+                    <g id="Group-9">
+                        <g id="Oval-Copy-33">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        </g>
+                    </g>
+                    <polygon id="Triangle-Copy-7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(21.500000, 21.500000) scale(1, -1) translate(-21.500000, -21.500000) " points="21.5 16 27 27 16 27"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

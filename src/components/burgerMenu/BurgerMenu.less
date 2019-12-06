@@ -1,0 +1,40 @@
+.container {
+  position: relative;
+  display: none;
+  width: 30px;
+  height: 25px;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  z-index: 2000;
+}
+
+.line {
+  height: 4px;
+  width: 100%;
+  border-radius: 3px;
+  background: #fff;
+  position: absolute;
+  transition: all 0.2s ease;
+}
+
+.lineTop {
+  transform-origin: left;
+  top: 0;
+}
+
+.lineMiddle {
+  top: 10.5px;
+  left: 0;
+}
+
+.lineBottom {
+  bottom: 0;
+  transform-origin: left;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    display: flex;
+  }
+}

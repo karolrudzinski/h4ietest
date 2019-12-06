@@ -1,0 +1,160 @@
+.columnContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  padding: 114px 40px 0 40px;
+
+  &:before {
+    content: "";
+    background-image: url(../../images/quote/quoteBright.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    left: -210px;
+  }
+}
+
+.col680 {
+  position: relative;
+  max-width: 680px;
+  width: 100%;
+}
+.col400 {
+  position: relative;
+  max-width: 400px;
+  width: 100%;
+}
+
+.halfSectionHeading {
+  max-width: 365px;
+  font-weight: 600;
+  font-size: 40px;
+  position: relative;
+  top: -10px;
+  left: -10px;
+  max-width: 370px;
+  text-align: left;
+}
+
+.testiTopCard {
+  position: relative;
+
+  &:before {
+    content: "";
+    background-image: url(../../images/testimonials/background.png);
+    position: absolute;
+    top: -55px;
+    right: -55px;
+    bottom: -51px;
+    left: 69px;
+    z-index: -1;
+  }
+}
+
+.testiTopCardInner {
+  padding: 30px 45px 45px 45px;
+  position: relative;
+  background: #fff;
+  -webkit-box-shadow: 0 6px 30px rgba(0, 0, 0, 0.11);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.11);
+  min-height: 312px;
+  max-width: 640px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+
+.testiBg {
+  background-repeat: no-repeat;
+  background-position: center left;
+  width: 152px;
+  height: 60px;
+  position: relative;
+}
+
+.testiBgAnalizy {
+  composes: testiBg;
+  background-size: 118px 35px;
+  background-image: url(../../images/testimonials/analizy.png);
+}
+
+.cardQuote {
+  color: #4b597b;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 34px;
+  max-width: 535px;
+  padding: 10px 0 0 0;
+  font-family: "Muli", sans-serif;
+
+  span {
+    font-weight: 700;
+  }
+}
+
+.sigContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 16px 0 0 0;
+}
+.clientSig {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+@media (max-width: 1024px) {
+  .halfSectionHeading {
+    max-width: 330px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 32px;
+  }
+  .col400 {
+    width: 100%;
+  }
+  .columnContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 24px 40px 0 40px;
+    &:before {
+      display: none;
+    }
+  }
+  .col680 {
+    display: none;
+  }
+}
+
+@media (max-width: 630px) {
+  .halfSectionHeading {
+    font-size: 26px;
+  }
+}

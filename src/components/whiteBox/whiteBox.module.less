@@ -1,0 +1,129 @@
+.whiteBox {
+  margin: 0 auto;
+  padding: 60px 40px 60px;
+  background-color: #fff;
+  box-shadow: 0 0 33px rgba(0, 0, 0, 0.05);
+
+  h2 {
+    max-width: 730px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+.featuredSection {
+  margin: 150px auto 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.clientsSection {
+  margin: 120px auto 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.wrapper {
+  max-width: 1185px;
+  width: 100%;
+  padding: 0 30px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.featuredBox {
+  height: 60px;
+  position: relative;
+  z-index: inherit;
+  -ms-flex-preferred-size: 20%;
+  flex-basis: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.boxImg {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  max-height: 100%;
+}
+
+.logoRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 30px auto 0 auto;
+  position: relative;
+}
+
+.fadeRow {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.clientBox {
+  height: 60px;
+  position: relative;
+  z-index: inherit;
+  flex-basis: 17%;
+}
+
+.clientLogoContainer {
+  margin: 30px auto 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  .logoRow {
+    justify-content: space-between;
+  }
+  .featuredBox {
+    flex-basis: 15%;
+  }
+}
+
+@media (max-width: 768px) {
+  .featuredBox {
+    height: 30px;
+  }
+  .whiteBox {
+    padding: 30px 20px;
+    box-shadow: none;
+    background: none;
+  }
+  .featuredSection {
+    .wrapper {
+      padding: 0;
+    }
+  }
+}
+
+@media (max-width: 568px) {
+  .logoRow {
+    .featuredBox {
+      height: 25px;
+      flex-basis: 22%;
+      &:last-of-type {
+        display: none;
+      }
+    }
+  }
+}

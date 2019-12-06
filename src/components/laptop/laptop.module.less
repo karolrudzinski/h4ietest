@@ -1,0 +1,56 @@
+.csLaptop {
+  //   position: absolute;
+  //   top: -60px;
+  //   left: 40px;
+  position: relative;
+  top: -60px;
+  left: 40px;
+  height: 550px;
+  width: 810px;
+  background-image: url(../../images/laptops/laptop.png);
+  background-size: cover;
+  background-position: top center;
+}
+
+.dsLaptop {
+  height: 560px;
+  width: 810px;
+  background-image: url(../../images/laptops/laptop.png);
+  background-size: cover;
+  background-position: top center;
+  position: absolute;
+  margin: 0 auto;
+  top: 60%;
+  //   right: -220px;
+  left: -20%;
+  transform: translate(0, -50%);
+}
+
+.dsLaptopScreen {
+  height: 390px;
+  max-width: 619px;
+  position: absolute;
+  top: 26px;
+  left: 95px;
+  width: 100%;
+  background-size: cover;
+}
+
+.dsLaptopScreen1 {
+  composes: dsLaptopScreen;
+  background-image: url(../../images/laptops//screens/screen1ds.jpg);
+}
+
+@media (max-width: 1180px) {
+  .dsLaptop {
+    left: -25%;
+  }
+}
+@media (max-width: 1100px) {
+  .dsLaptop {
+    transform: none;
+    top: initial;
+    right: initial;
+    position: relative;
+  }
+}

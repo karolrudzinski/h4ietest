@@ -1,0 +1,64 @@
+.container {
+  position: relative;
+  display: none;
+  transition: 0.5s ease-in-out;
+  width: 22px;
+  height: 21px;
+  cursor: pointer;
+  position: fixed;
+  right: 30px;
+  top: 50px;
+  z-index: 2000;
+}
+
+.line {
+  // height: 4px;
+  // width: 100%;
+  // border-radius: 3px;
+  // background: black;
+  // position: absolute;
+  // transition: all 0.2s ease;
+
+  display: block;
+  height: 3px;
+  width: 100%;
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  position: absolute;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.2 ease;
+  background: #4b597b;
+}
+
+.lineTop {
+  // transform-origin: left;
+  // top: 0;
+  top: 2px;
+  -webkit-transform-origin: left center;
+  transform-origin: left center;
+}
+
+.lineMiddle {
+  // top: 10.5px;
+  // left: 0;
+  top: 10px;
+  -webkit-transform-origin: left center;
+  transform-origin: left center;
+}
+
+.lineBottom {
+  // bottom: 0;
+  // transform-origin: left;
+  top: 18px;
+  -webkit-transform-origin: left center;
+  transform-origin: left center;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: flex;
+  }
+}

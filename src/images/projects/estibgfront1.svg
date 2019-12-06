@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="361px" height="438px" viewBox="0 0 361 438" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+    <title>img1_front1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#8AB9FF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFA386" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-50.2098011%" x2="50%" y2="142.802297%" id="linearGradient-3">
+            <stop stop-color="#93DEFF" offset="0%"></stop>
+            <stop stop-color="#7873FF" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-4" cx="39.5" cy="39.5" r="39.5"></circle>
+        <filter x="-75.3%" y="-61.4%" width="250.6%" height="250.6%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="11" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="18" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.483447759   0 0 0 0 0.543981225   0 0 0 0 1  0 0 0 0.701228487 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="114.1728%" x2="50%" y2="-50.2098011%" id="linearGradient-6">
+            <stop stop-color="#FF9199" offset="0%"></stop>
+            <stop stop-color="#FFB373" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-7" cx="22" cy="22" r="22"></circle>
+        <filter x="-84.1%" y="-88.6%" width="268.2%" height="268.2%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.596078431   0 0 0 0 0.568627451  0 0 0 0.584267437 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-9" cx="30.5" cy="75.5" r="30.5"></circle>
+        <filter x="-60.7%" y="-63.9%" width="221.3%" height="221.3%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.596078431   0 0 0 0 0.568627451  0 0 0 0.584267437 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="estibits_landing" transform="translate(-186.000000, -1027.000000)">
+            <g id="img1_front1" transform="translate(208.000000, 1051.000000)">
+                <rect id="Rectangle-7" fill-opacity="0.5" fill="url(#linearGradient-1)" x="156" y="42" width="79" height="340"></rect>
+                <rect id="Rectangle-7-Copy" fill-opacity="0.5" fill="url(#linearGradient-2)" opacity="0.200000003" x="0" y="151" width="61" height="263"></rect>
+                <rect id="Rectangle-7-Copy-2" fill-opacity="0.5" fill="url(#linearGradient-2)" opacity="0.200000003" x="272" y="105" width="43" height="263"></rect>
+                <g id="Group-6" transform="translate(156.000000, 0.000000)">
+                    <g id="Oval-Copy-31">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                        <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    </g>
+                    <polygon id="Triangle-Copy-5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="40 28 50 48 30 48"></polygon>
+                </g>
+                <g id="Group-7" transform="translate(1.000000, 73.000000)">
+                    <g id="Group-8" transform="translate(271.000000, 0.000000)">
+                        <circle id="Oval-3-Copy-4" stroke="#FFFFFF" stroke-width="3" cx="52" cy="6" r="6"></circle>
+                        <g id="Group-7-Copy" transform="translate(0.000000, 3.000000)">
+                            <g id="Oval-Copy-34">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                                <use fill="url(#linearGradient-6)" fill-rule="evenodd" xlink:href="#path-7"></use>
+                            </g>
+                            <circle id="Oval-3-Copy-3" stroke="#FFFFFF" stroke-width="3" cx="21.6393443" cy="22.3606557" r="5.7704918"></circle>
+                        </g>
+                    </g>
+                    <g id="Oval-Copy-34">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                        <use fill="url(#linearGradient-6)" fill-rule="evenodd" xlink:href="#path-9"></use>
+                    </g>
+                    <circle id="Oval-3-Copy-3" stroke="#FFFFFF" stroke-width="3" cx="30" cy="76" r="8"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

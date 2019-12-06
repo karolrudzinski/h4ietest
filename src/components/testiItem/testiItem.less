@@ -1,0 +1,169 @@
+.testiItem {
+  position: relative;
+  max-width: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.testiQuoteImg {
+  height: 57px;
+  width: 46px;
+  display: block;
+}
+
+.testiBg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center left;
+  width: 152px;
+  height: 60px;
+  position: relative;
+}
+
+.testiBgNick {
+  background-size: 130px 22px;
+  background-image: url(../../images/testimonials/nicklogo.png);
+  // background-image: url(/user/themes/hype4-theme/img/2019/h4new_materials/testimonials/nick_logo.png);
+  // right: 11px;
+}
+
+.testiBgCc {
+  background-size: 101px 35px;
+  background-image: url(../../images/testimonials/cclogo.png);
+}
+
+.testiBgKf {
+  background-size: 152px 60px;
+  background-image: url(../../images/testimonials/kftestimonial.png);
+  // background-image: url(/user/themes/hype4-theme/img/2019/h4new_materials/testimonials/kupfundusz_logo.png);
+  right: 8px;
+}
+
+.testiBgCircle {
+  background-size: 152px 60px;
+  background-image: url(../../images/testimonials/circle_logo.png);
+  // background-image: url(/user/themes/hype4-theme/img/2019/h4new_materials/testimonials/circle_logo.png);
+  right: 8px;
+}
+
+.testiBgVoice {
+  background-size: 152px 60px;
+  background-image: url(../../images/testimonials/voicespin_logo.png);
+  // background-image: url(/user/themes/hype4-theme/img/2019/h4new_materials/testimonials/voicespin_logo.png);
+  right: 5px;
+}
+
+.testiBgMedi {
+  background-size: 130px 70px;
+  background-image: url(../../images/testimonials/medidesklogo.png);
+}
+
+.testiBgAnalizy {
+  background-size: 118px 35px;
+  background-image: url(../../images/testimonials/analizy.png);
+}
+
+.testiBgMedia {
+  background-size: 100px 80px;
+  background-image: url(../../images/testimonials/medihealthlogo.png);
+}
+
+.testiBgShip {
+  background-size: 120px 80px;
+  background-image: url(../../images/testimonials/shiphublogo.png);
+}
+
+.testiText {
+  color: #4b597b;
+  font-size: 14px;
+  font-family: "Muli", sans-serif;
+  margin: 5px 0 0 0;
+  line-height: 22px;
+}
+
+.testiSig {
+  margin: 20px 0 0 0;
+  color: #4b597b;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.textPurple {
+  color: #7868e6;
+}
+
+@media (max-width: 1024px) {
+  .testiItem {
+    background: #fff;
+    padding: 30px 25px;
+    box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.05);
+    align-items: center;
+    justify-content: space-between;
+    min-height: 340px;
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .testiQuoteImg {
+    display: none;
+  }
+
+  .testiBg {
+    margin: 0 auto;
+  }
+
+  .testiText {
+    text-align: center;
+  }
+
+  .testiBgNick,
+  .testiBgCc {
+    background-position: center;
+  }
+
+  .testiBgKf {
+    background-position: center;
+  }
+
+  .testiBgCircle {
+    background-position: 30px;
+  }
+
+  .testiBgVoice {
+    background-position: 12px;
+    right: initial;
+  }
+
+  .testiSig {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+@media (max-width: 950px) {
+  .testiItem {
+    max-width: 320px;
+  }
+}
+@media (max-width: 768px) {
+  .testiItem {
+    margin: 0 auto;
+  }
+}

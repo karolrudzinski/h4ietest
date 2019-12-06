@@ -1,0 +1,54 @@
+.brickWrapper {
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+
+.brickWrapperInner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1138px;
+  position: relative;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: 500ms all;
+  transition: 500ms all;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .brickWrapper {
+    overflow-x: scroll;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    height: auto;
+    margin: 20px auto 0 auto;
+  }
+  .brickWrapperInner {
+    position: static;
+    min-width: 1120px;
+    opacity: 1;
+  }
+}

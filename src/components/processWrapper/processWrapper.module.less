@@ -1,0 +1,64 @@
+.processInner {
+  margin: 50px auto 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  max-width: 1185px;
+  width: 100%;
+  padding: 0 30px;
+  position: relative;
+}
+
+.firstHalf {
+  transform: rotateZ(180deg);
+  background: transparent;
+}
+
+.secondHalf {
+  transform: scaleX(-1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+}
+
+.processContainer {
+  position: relative;
+}
+
+.processLine {
+  height: 3px;
+  width: 100%;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#3474fc),
+    to(#f97eff)
+  );
+  background: linear-gradient(90deg, #3474fc 0%, #f97eff 100%);
+  position: absolute;
+  top: 17px;
+}
+
+@media (max-width: 1024px) {
+  .processLine {
+    display: none;
+  }
+
+  .processInner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}

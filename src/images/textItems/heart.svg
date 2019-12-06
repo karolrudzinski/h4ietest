@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="36px" viewBox="0 0 41 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Stroke 1 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="147.681972%" y1="113.633102%" x2="-12.3919781%" y2="4.32112716%" id="linearGradient-1">
+            <stop stop-color="#ED88FF" offset="0%"></stop>
+            <stop stop-color="#2A74F2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="h4_productdesign" transform="translate(-800.000000, -1077.000000)" stroke="url(#linearGradient-1)" stroke-width="3.2">
+            <path d="M820.5,1111 C826.091111,1107.61832 839,1100.77445 839,1089.32258 C839,1083.62452 834.395556,1079 828.722222,1079 C825.361389,1079 822.370556,1080.63097 820.5,1083.13935 C818.629444,1080.63097 815.638611,1079 812.277778,1079 C806.604444,1079 802,1083.62452 802,1089.32258 C802,1100.77445 814.908889,1107.61832 820.5,1111 Z" id="Stroke-1-Copy"></path>
+        </g>
+    </g>
+</svg>

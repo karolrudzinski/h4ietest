@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="38px" viewBox="0 0 46 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="147.681972%" y1="104.694184%" x2="-12.3919781%" y2="10.7379087%" id="linearGradient-1">
+            <stop stop-color="#ED88FF" offset="0%"></stop>
+            <stop stop-color="#2A74F2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="180.037897%" y1="131.008566%" x2="-12.3919781%" y2="-11.0687275%" id="linearGradient-2">
+            <stop stop-color="#ED88FF" offset="0%"></stop>
+            <stop stop-color="#2A74F2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="250.561452%" y1="208.944132%" x2="-58.8723695%" y2="-43.7778301%" id="linearGradient-3">
+            <stop stop-color="#ED88FF" offset="0%"></stop>
+            <stop stop-color="#2A74F2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="h4_productdesign" transform="translate(-803.000000, -2298.000000)">
+            <g id="Group-6" transform="translate(805.000000, 2300.000000)">
+                <g id="Group-5">
+                    <g id="Group-7" transform="translate(0.000000, 0.500000)">
+                        <path d="M31.4264881,9.45769608 C37.7439696,13.0114411 42,18.6736594 42,20.0882353 C42,22.1907059 32.5981765,33.6764706 21,33.6764706 C9.40182353,33.6764706 0,22.1907059 0,20.0882353 C0,18.6736594 4.25603041,13.0114411 10.5735119,9.45769608 L8.5,3.5 L10.5735119,9.45769608 C13.6456428,7.72954384 17.2052623,6.5 21,6.5 C24.7947377,6.5 28.3543572,7.72954384 31.4264881,9.45769608 L33.5,3.5 L31.4264881,9.45769608 Z M21,6.5 L21,0 L21,6.5 Z" id="Combined-Shape" stroke="url(#linearGradient-1)" stroke-width="3.2" stroke-linejoin="round"></path>
+                        <path d="M28.4117647,20.0882353 C28.4117647,24.1807647 25.0925294,27.5 21,27.5 C16.9062353,27.5 13.5882353,24.1807647 13.5882353,20.0882353 C13.5882353,15.9957059 16.9062353,12.6764706 21,12.6764706 C25.0925294,12.6764706 28.4117647,15.9957059 28.4117647,20.0882353 Z" id="Stroke-3" stroke="url(#linearGradient-2)" stroke-width="3.2"></path>
+                        <circle id="Oval" fill="url(#linearGradient-3)" cx="21" cy="20" r="2"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="147.681972%" y1="135.071989%" x2="-12.3919781%" y2="-11.0687275%" id="linearGradient-1">
+            <stop stop-color="#ED88FF" offset="0%"></stop>
+            <stop stop-color="#2A74F2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-37.1569896%" y1="-217.744891%" x2="67.5566398%" y2="227.297667%" id="linearGradient-2">
+            <stop stop-color="#ED88FF" offset="0%"></stop>
+            <stop stop-color="#2A74F2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="251.055696%" y1="216.441548%" x2="-12.3919781%" y2="-11.0687275%" id="linearGradient-3">
+            <stop stop-color="#ED88FF" offset="0%"></stop>
+            <stop stop-color="#2A74F2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="h4_productdesign" transform="translate(-162.000000, -1076.000000)">
+            <g id="Group-2" transform="translate(164.000000, 1078.000000)">
+                <circle id="Oval" stroke="url(#linearGradient-1)" stroke-width="3" cx="18" cy="18" r="18"></circle>
+                <path d="M22.2569926,28.4644164 C22.2569926,23.9672406 18.6113112,20.3215593 14.1141354,20.3215593" id="Oval-Copy-2" stroke="url(#linearGradient-2)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(18.185564, 24.392988) rotate(134.000000) translate(-18.185564, -24.392988) "></path>
+                <circle id="Oval" fill="url(#linearGradient-3)" cx="10.3714286" cy="17.2285714" r="1.8"></circle>
+                <circle id="Oval-Copy-3" fill="url(#linearGradient-1)" cx="25.8" cy="17.2285714" r="1.8"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

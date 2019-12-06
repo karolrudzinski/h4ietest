@@ -1,0 +1,156 @@
+.parallaxContainer {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.designSecondPlan {
+  position: absolute;
+  top: 10px;
+  left: 193px;
+  z-index: -2;
+  width: 76%;
+}
+
+.designFirstPlan {
+  position: relative;
+  margin: 0px 0 0 87px;
+  display: block;
+  z-index: -1;
+  max-width: 73%;
+}
+.parallaxIcon {
+  z-index: 0;
+  position: absolute;
+}
+
+.parallaxIconSketch {
+  composes: parallaxIcon;
+  bottom: 205px;
+  right: 256px;
+  width: 77px;
+  height: 77px;
+}
+
+.devSecondPlan {
+  position: absolute;
+  top: 135px;
+  left: 50px;
+  z-index: -2;
+  width: 89%;
+}
+
+.devFirstPlan {
+  position: relative;
+  margin: 0 0 0 280px;
+  display: block;
+  z-index: -1;
+  max-width: 60%;
+}
+
+.parallaxIconSwift {
+  composes: parallaxIcon;
+  top: 80px;
+  left: 172px;
+  width: 150px;
+  height: 150px;
+}
+
+.parallaxIconReact {
+  composes: parallaxIcon;
+  top: 35px;
+  left: 478px;
+  width: 160px;
+  height: 160px;
+}
+
+.parallaxIconPython {
+  composes: parallaxIcon;
+  top: 148px;
+  right: 300px;
+  width: 130px;
+  height: 130px;
+}
+
+.parallaxIconNode {
+  composes: parallaxIcon;
+  top: 10px;
+  right: 100px;
+  width: 145px;
+  height: 145px;
+}
+
+.parallaxIconGatsby {
+  composes: parallaxIcon;
+  bottom: 128px;
+  right: 111px;
+  width: 130px;
+  height: 130px;
+}
+
+.parallaxIconD3 {
+  composes: parallaxIcon;
+  left: 430px;
+  bottom: 84px;
+  width: 150px;
+  height: 150px;
+}
+
+@media (max-width: 1024px) {
+  .designFirstPlan {
+    margin: 0 auto;
+    max-width: 90%;
+  }
+
+  .designSecondPlan {
+    left: 50%;
+    z-index: -2;
+    width: 100%;
+    transform: translate(-50%, 0);
+  }
+  .parallaxIconSketch {
+    bottom: 66%;
+    right: 50%;
+    width: 80px;
+    height: 80px;
+  }
+
+  .devFirstPlan {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+
+  .devSecondPlan {
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 90%;
+    margin: 0 auto;
+  }
+  .parallaxIconReact {
+    top: 5px;
+    left: 328px;
+    width: 130px;
+    height: 130px;
+  }
+  .parallaxIconSwift {
+    top: 120px;
+    left: 52px;
+    width: 130px;
+    height: 130px;
+  }
+
+  .parallaxIconD3 {
+    left: 100px;
+    bottom: 34px;
+  }
+  .parallaxIconPython {
+    top: 258px;
+  }
+}
+
+@media (max-width: 768px) {
+  .parallaxIcon {
+    display: none;
+  }
+}
